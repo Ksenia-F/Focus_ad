@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фокус</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/logotype/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="head_menu container">
+            <a href="index.html">
+                <div class="logobox">
+                    <img src="assets/image/logotype/logo.png" alt="">
+                    <div class="logo_text">
+                        <p>ФОКУС</p>
+                        <span>Фотостудия</span>
+                    </div>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="team.html">Фотографы</a>
+                <a href="index.html#contact">Контакты</a>
+            </nav>
+            <div class="btn_head">
+                <a href="autorization.html">
+                    <p>Войти</p><span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- studia start -->
+    <div class="studia_card container">
+        <div class="title">
+            <p>ОПИСАНИЕ</p>
+            <h2>СТУДИЯ</h2>
+        </div>
+        <div class="about_studio">
+            <div class="studia_card_left">
+                <img src="assets/image/studia_card/card_1.png" alt="" class="first_card_studio">
+                <div class="studia_cards">
+                    <img src="assets/image/studia_card/card_1.png" alt=""
+                        onclick="slider('assets/image/studia_card/card_1.png')">
+                    <img src="assets/image/studia_card/card_2.png" alt=""
+                        onclick="slider('assets/image/studia_card/card_2_2.png')">
+                    <img src="assets/image/studia_card/card_3.png" alt=""
+                        onclick="slider('assets/image/studia_card/card_3_2.png')">
+                    <img src="assets/image/studia_card/card_4.png" alt=""
+                        onclick="slider('assets/image/studia_card/card_4_2.png')">
+                    <img src="assets/image/studia_card/card_5.png" alt=""
+                        onclick="slider('assets/image/studia_card/card_5_2.png')">
+                </div>
+            </div>
+            <div class="studia_card_right">
+                <h4>АППАРТАМЕНТЫ И БАР</h4>
+                <h5>От 3 500 ₽/час</h5>
+                <p class="about_studio_text">Просторный зал с кроватью, оснащенный функционирующими ванной и тропическим
+                    душем в благородных серых
+                    тонах. Большие окна по периметру создадут непередаваемую атмосферу. Дополнением является барная
+                    стойка с
+                    алкогольным ассортиментом и сервированный стол с бокалами вина.</p>
+                <span>
+                    <svg width="20" height="1" viewBox="0 0 20 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="20" y2="0.5" stroke="#E7E8EF" />
+                    </svg>
+                    Тёплый пол
+                </span>
+                <span>
+                    <svg width="20" height="1" viewBox="0 0 20 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="20" y2="0.5" stroke="#E7E8EF" />
+                    </svg>
+                    Солнечная сторона
+                </span>
+                <span>
+                    <svg width="20" height="1" viewBox="0 0 20 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="20" y2="0.5" stroke="#E7E8EF" />
+                    </svg>
+                    Приточно-вытяжная вентиляция
+                </span>
+                <span>
+                    <svg width="20" height="1" viewBox="0 0 20 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="20" y2="0.5" stroke="#E7E8EF" />
+                    </svg>
+                    Наличие штор блэк-аут
+                </span>
+                <div class="btn_studio btn_head">
+                    <a href="autorization.html">
+                        <p>Забронировать</p><span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- studia end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="footer_content container">
+            <div class="box_1_foot">
+                <a href="#">
+                    <div class="logo">
+                        <img src="assets/image/logotype/logo.png" alt="">
+                        <div class="logo_text_foot">
+                            <h4>ФОКУС</h4>
+                            <span>Масштабная компания <br>
+                                фотостудий Казани</span>
+                        </div>
+                    </div>
+                </a>
+                <p>© Файзутдинова Ксения Альбертовна 325</p>
+            </div>
+            <div class="box_2_foot">
+                <span>Навигация по сайту</span>
+                <nav>
+                    <a href="index.html">Главная</a>
+                    <a href="index.html#contact">Контакты</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="team.html">Фотографы</a>
+                </nav>
+            </div>
+            <div class="box_3_foot box_2_foot">
+                <span>Документы</span>
+                <a href="assets/documents/Doc_ofert.docx">Договор оферты</a>
+                <a href="assets/documents/Inf_company.docx">Данные компании</a>
+                <a href="assets/documents/Privacy_Policy.docx">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script>
+        function slider(image) {
+            document.querySelector(".first_card_studio").src = image;
+        }
+    </script>
+
+</body>
+
+</html>

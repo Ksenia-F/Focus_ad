@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фокус</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/logotype/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="head_menu container">
+            <a href="index.html">
+                <div class="logobox">
+                    <img src="assets/image/logotype/logo.png" alt="">
+                    <div class="logo_text">
+                        <p>ФОКУС</p>
+                        <span>Фотостудия</span>
+                    </div>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="team.html">Фотографы</a>
+                <a href="index.html#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- forms_registration start -->
+    <div class="form_registration container">
+        <div class="rect_1_forms">
+        </div>
+        <div class="form_registration_box form_autorization_box">
+            <img src="assets/image/registration/registration.png" alt="">
+            <div class="registration_right">
+                <div class="title_form">
+                    <h3>ФОКУС</h3>
+                    <span>Регистрация</span>
+                </div>
+                <form id="registrationForm">
+                    <div class="input_box">
+                        <label>Ваше Имя</label>
+                        <input type="text">
+                    </div>
+                    <div class="input_box">
+                        <label>Ваша Фамилия</label>
+                        <input type="text">
+                    </div>
+                    <div class="input_box">
+                        <label>Электронная почта *</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="input_box">
+                        <label>Номер телефона *</label>
+                        <input type="number" required>
+                    </div>
+                    <div class="input_box">
+                        <label>Пароль *</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="input_box">
+                        <label>Повторите пароль *</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="btns_registration">
+                        <button type="submit">Создать аккаунт</button>
+                        <p>Нажимая кнопку, вы соглашаетесь с
+                            <a href="assets/documents/Privacy_Policy.docx">политикой конфиденциальности</a>
+                        </p>
+                    </div>
+                </form>
+                <p class="question">У вас уже есть аккаунт? <a href="autorization.html">Войти</a></p>
+            </div>
+        </div>
+        <div class="rect_2_forms">
+        </div>
+    </div>
+    <!-- forms_registration end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="footer_content container">
+            <div class="box_1_foot">
+                <a href="#">
+                    <div class="logo">
+                        <img src="assets/image/logotype/logo.png" alt="">
+                        <div class="logo_text_foot">
+                            <h4>ФОКУС</h4>
+                            <span>Масштабная компания <br>
+                                фотостудий Казани</span>
+                        </div>
+                    </div>
+                </a>
+                <p>© Файзутдинова Ксения Альбертовна 325</p>
+            </div>
+            <div class="box_2_foot">
+                <span>Навигация по сайту</span>
+                <nav>
+                    <a href="index.html">Главная</a>
+                    <a href="index.html#contact">Контакты</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="team.html">Фотографы</a>
+                </nav>
+            </div>
+            <div class="box_3_foot box_2_foot">
+                <span>Документы</span>
+                <a href="assets/documents/Doc_ofert.docx">Договор оферты</a>
+                <a href="assets/documents/Inf_company.docx">Данные компании</a>
+                <a href="assets/documents/Privacy_Policy.docx">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const inputs = this.querySelectorAll('input[required]');
+            let allFilled = true;
+
+            if (allFilled) {
+                document.location = 'index.html';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
