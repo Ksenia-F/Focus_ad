@@ -13,28 +13,46 @@
     <!-- header start -->
     <header>
         <div class="head_menu container">
-            <div class="head_menu_left">
-                <a href="#">
-                    <div class="logobox">
-                        <img src="assets/image/logotype/logo.png" alt="">
-                        <div class="logo_text">
-                            <p>ФОКУС</p>
-                            <span>Фотостудия</span>
-                        </div>
+            <a href="#">
+                <div class="logobox">
+                    <img src="assets/image/logotype/logo.png" alt="">
+                    <div class="logo_text">
+                        <p>ФОКУС</p>
+                        <span>Фотостудия</span>
                     </div>
-                </a>
+                </div>
+            </a>
+            <div class="head_menu_left">
                 <nav>
                     <a href="#">Главная</a>
                     <a href="catalog.html">Каталог</a>
                     <a href="team.html">Фотографы</a>
                     <a href="#contact">Контакты</a>
                 </nav>
+                <div class="btn_head_1 btn_head">
+                    <a href="autorization.html">
+                        <p>Войти</p><span class="arrow">→</span>
+                    </a>
+                </div>
             </div>
-            <div class="btn_head">
-                <a href="autorization.html">
-                    <p>Войти</p><span class="arrow">→</span>
-                </a>
-            </div>
+        </div>
+        <div class="burger_menu">
+            <input type="checkbox" id="burger">
+            <label for="burger">
+                <span></span>
+            </label>
+            <nav>
+                <a class="a1" href="#">Главная</a>
+                <a class="a1" href="#">Каталог</a>
+                <a class="a1" href="#">Фотографы</a>
+                <a class="a1" href="#">Контакты</a>
+
+                <div class="btn_head btn_head_2">
+                    <a class="autor" href="autorization.html">
+                        <p>Войти</p><span class="arrow">→</span>
+                    </a>
+                </div>
+            </nav>
         </div>
     </header>
     <!-- header end -->
@@ -68,11 +86,11 @@
                 <p>КОМПАНИЯ</p>
                 <h2>О НАС</h2>
             </div>
-            <p><span>Фокус</span> - это новая и самая масштабная фотостудия в Казани. Наша <br> миссия и деятельность
+            <p><span>Фокус</span> - это новая и самая масштабная фотостудия в Казани. Наша миссия и деятельность
                 состоит
-                в создании неповторимых и <br> эмоционально насыщенных фотографии, которые запечатлевают <br> самые
+                в создании неповторимых и эмоционально насыщенных фотографии, которые запечатлевают самые
                 важные моменты
-                жизни наших клиентов, помогая им <br> сохранить и передать красоту и уникальность каждого мгновения.</p>
+                жизни наших клиентов, помогая им сохранить и передать красоту и уникальность каждого мгновения.</p>
             <h3><svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M29.3281 14L0.328125 14" stroke="white" />
                 </svg>
@@ -283,6 +301,22 @@
                 <a href="catalog.html" class="btn_to_cat">Перейти в каталог</a>
             </div>
         </div>
+        <div class="slider_btns">
+            <div class="slider_btn_cat_1">
+                <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.75 7.5L11.25 15L18.75 22.5" stroke="#656567" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
+            <div class="slider_btn_cat_1">
+                <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.25 22.5L18.75 15L11.25 7.5" stroke="#656567" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
+        </div>
     </div>
     <!-- catalog_main end -->
 
@@ -298,7 +332,7 @@
                 композицией.</p>
         </div>
         <div class="cat_famous">
-            <div class="card_famous">
+            <div class="card_famous card_1_f">
                 <img src="assets/image/main/famous_people/card_1.png" alt="" class="face_famous">
                 <div class="bgc_card_famous"><svg width="270" height="323" viewBox="0 0 270 323" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -337,7 +371,7 @@
                 </div>
                 <img src="assets/image/main/famous_people/card_1_2.png" alt="" class="content_people">
             </div>
-            <div class="card_famous">
+            <div class="card_famous card_2_f">
                 <img src="assets/image/main/famous_people/card_2.png" alt="" class="face_famous">
                 <div class="bgc_card_famous"><svg width="270" height="323" viewBox="0 0 270 323" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +410,7 @@
                 </div>
                 <img src="assets/image/main/famous_people/card_2_2.png" alt="" class="content_people">
             </div>
-            <div class="card_famous">
+            <div class="card_famous card_3_f">
                 <img src="assets/image/main/famous_people/card_3.png" alt="" class="face_famous">
                 <div class="bgc_card_famous"><svg width="270" height="323" viewBox="0 0 270 323" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -414,6 +448,11 @@
                 </div>
                 <img src="assets/image/main/famous_people/card_3_3.png" alt="" class="content_people">
             </div>
+        </div>
+        <div class="filtering_f">
+            <button autofocus></button>
+            <button></button>
+            <button></button>
         </div>
     </div>
     <!-- famous people end -->
@@ -481,21 +520,6 @@
                     </div>
                 </a>
                 <p>© Файзутдинова Ксения Альбертовна 325</p>
-            </div>
-            <div class="box_2_foot">
-                <span>Навигация по сайту</span>
-                <nav>
-                    <a href="#">Главная</a>
-                    <a href="#contact">Контакты</a>
-                    <a href="catalog.html">Каталог</a>
-                    <a href="team.html">Фотографы</a>
-                </nav>
-            </div>
-            <div class="box_3_foot box_2_foot">
-                <span>Документы</span>
-                <a href="assets/documents/Doc_ofert.docx">Договор оферты</a>
-                <a href="assets/documents/Inf_company.docx">Данные компании</a>
-                <a href="assets/documents/Privacy_Policy.docx">Политика конфиденциальности</a>
             </div>
         </div>
     </footer>
